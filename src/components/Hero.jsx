@@ -9,7 +9,7 @@ const Hero = () => {
           <h2 className="text-4xl text-center md:text-5xl sm:w-3/4 md:text-start md:w-full lg:text-6xl max-w-screen-lg font-bold">
             Hi there! I'm Nick - Welcome to my Portfolio!
           </h2>
-          <p className="py-4 text-md md:text-lg max-w-xl">
+          <p className="py-4 text-lg md:text-xl max-w-xl">
             Full-Stack Software Developer with 1.5 years of experience building
             dynamic SPA web apps using React, JavaScript, HTML/CSS, Node.js,
             Express, and MongoDB
