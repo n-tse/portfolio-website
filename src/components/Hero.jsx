@@ -4,12 +4,12 @@ import heroImg from "../assets/PSHeadshot.jpg";
 const Hero = () => {
   return (
     <section name="hero" className="h-screen w-full">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-6xl font-bold">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-4/5 px-4 md:flex-row sm:h-5/6 md:h-3/4 md:w-4/5">
+        <div className="flex flex-col justify-center items-center h-full md:items-start">
+          <h2 className="text-4xl text-center md:text-5xl sm:w-3/4 md:text-start md:w-full lg:text-6xl max-w-screen-lg font-bold">
             Hi there! I'm Nick - Welcome to my Portfolio!
           </h2>
-          <p className="py-4 max-w-md">
+          <p className="py-4 max-w-lg">
             Full-Stack Software Developer with 1.5 years of experience building
             dynamic SPA web apps using React, JavaScript, HTML/CSS, Node.js,
             Express, and MongoDB
@@ -32,7 +32,8 @@ const Hero = () => {
           <img
             src={heroImg}
             alt="my professional screenshot"
-            className="rounded-2xl mx-auto w-4/5 md:w-full"
+            // className="rounded-2xl mx-auto w-4/5 md:w-full"
+            className="rounded-2xl mx-auto w-full min-w-fit md:ml-8"
           />
         </div>
       </div>
