@@ -12,7 +12,7 @@ const NavBar = () => {
         <div>
           <h1 className="font-signature text-5xl">Nicholas Tse</h1>
         </div>
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex lg:text-lg xl:text-xl">
           {navLinks.map((link) => {
             return (
               <li

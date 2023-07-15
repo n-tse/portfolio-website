@@ -63,7 +63,7 @@ const SocialLinks = () => {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-between items-center w-full"
+              className="flex justify-between items-center w-full h-full"
             >
                 {child}
             </a>
