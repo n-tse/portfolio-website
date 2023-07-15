@@ -7,7 +7,8 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center w-full h-20 px-6 bg-neutral-100 text-slate-600 z-10 fixed">
+      <div className="flex justify-between items-center w-full h-20 px-6 bg-neutral-100 text-slate-600 z-50 sticky top-0">
+
         <div>
           <h1 className="font-signature text-5xl">Nicholas Tse</h1>
         </div>
@@ -16,7 +17,7 @@ const NavBar = () => {
             return (
               <li
                 key={link.id}
-                className="px-4 cursor-pointer font-medium text-slate-600 hover:text-black"
+                className="px-3 cursor-pointer font-medium text-slate-600 hover:text-black"
               >
                 {link.linkName}
               </li>

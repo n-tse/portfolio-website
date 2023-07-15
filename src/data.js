@@ -13,10 +13,14 @@ export const navLinks = [
   },
   {
     id: 4,
-    linkName: "Experience",
+    linkName: "Skills",
   },
   {
     id: 5,
+    linkName: "Experience",
+  },
+  {
+    id: 6,
     linkName: "Contact",
   },
 ];
