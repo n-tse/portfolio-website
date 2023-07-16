@@ -78,3 +78,97 @@ export const projectsList = [
     repoLink: "https://github.com/n-tse/Sushi.Solution",
   },
 ];
+
+// icons downloaded from icons8
+export const skillsList = [
+  {
+    id: 1,
+    skillName: "React",
+    src: "src/assets/SkillsIcons/reactjs.png",
+  },
+  {
+    id: 2,
+    skillName: "JavaScript",
+    src: "src/assets/SkillsIcons/javascript.png",
+  },
+  {
+    id: 3,
+    skillName: "TypeScript",
+    src: "src/assets/SkillsIcons/typescript.png",
+  },
+  {
+    id: 4,
+    skillName: "HTML5",
+    src: "src/assets/SkillsIcons/html5.png",
+  },
+  {
+    id: 5,
+    skillName: "CSS3",
+    src: "src/assets/SkillsIcons/css3.png",
+  },
+  {
+    id: 6,
+    skillName: "React Redux",
+    src: "src/assets/SkillsIcons/redux.png",
+  },
+  {
+    id: 7,
+    skillName: "MongoDB",
+    src: "src/assets/SkillsIcons/mongodb.png",
+  },
+  {
+    id: 8,
+    skillName: "Node.js",
+    src: "src/assets/SkillsIcons/nodejs.png",
+  },
+  {
+    id: 9,
+    skillName: "Flutter",
+    src: "src/assets/SkillsIcons/flutter.png",
+  },
+  {
+    id: 10,
+    skillName: "Dart",
+    src: "src/assets/SkillsIcons/dart.png",
+  },
+  {
+    id: 11,
+    skillName: "C#",
+    src: "src/assets/SkillsIcons/c-sharp.png",
+  },
+  {
+    id: 12,
+    skillName: ".NET",
+    src: "src/assets/SkillsIcons/dotnet.png",
+  },
+  {
+    id: 13,
+    skillName: "MySQL",
+    src: "src/assets/SkillsIcons/mysql.png",
+  },
+  {
+    id: 14,
+    skillName: "Bootstrap",
+    src: "src/assets/SkillsIcons/bootstrap.png",
+  },
+  {
+    id: 15,
+    skillName: "Tailwind CSS",
+    src: "src/assets/SkillsIcons/tailwindcss.png",
+  },
+  {
+    id: 16,
+    skillName: "Material UI",
+    src: "src/assets/SkillsIcons/material-ui.png",
+  },
+  {
+    id: 17,
+    skillName: "Git",
+    src: "src/assets/SkillsIcons/git.png",
+  },
+  {
+    id: 18,
+    skillName: "npm",
+    src: "src/assets/SkillsIcons/npm.png",
+  },
+];
