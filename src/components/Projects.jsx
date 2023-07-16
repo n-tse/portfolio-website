@@ -1,5 +1,5 @@
 import React from "react";
-import { projectScreenshots } from "../data.js";
+import { projectsList } from "../data.js";
 // import WestBuyScreenshot from "../assets/ProjectScreenshots/WestBuyScreenshot.png";
 // import PawsitivePetCareScreenshot from "../assets/ProjectScreenshots/PawsitivePetCareScreenshot.png";
 // import GreatJobScreenshot from "../assets/ProjectScreenshots/GreatJobScreenshot.png";
@@ -19,28 +19,72 @@ const Projects = () => {
           </p>
           <p className="py-6">Check out some of my work!</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projectScreenshots.map(({ id, src, hasDemo }) => {
-            return (
-              <div
-                key={id}
-                className="bg-slate-500 text-white shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105"
-              >
-                <img src={src} alt="" className="rounded-tr-lg rounded-tl-lg" />
-                <div className="flex items-center justify-center">
-                  {hasDemo && (
-                    <>
-                      <button className="w-1/2 py-4 text-lg">Demo</button>
-                      <span className="py-4 border-l-2"></span>
-                    </>
-                  )}
-                  <button className="w-1/2 py-4 text-lg">
-                    {hasDemo ? "Repo" : "View Repo"}
-                  </button>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4">
+          {projectsList.map(
+            ({
+              id,
+              projectName,
+              projectDescription,
+              src,
+              hasDemo,
+              demoLink,
+              repoLink,
+            }) => {
+              return (
+                <div
+                  key={id}
+                  className="bg-slate-500 text-white shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 overflow-hidden group"
+                >
+                  <div className="relative">
+                    <div className="absolute top-0 left-0 text-white text-center bg-black bg-opacity-60 h-full w-full flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 px-2">
+                      <div className="font-medium pb-2 text-4xl sm:text-3xl">
+                        {projectName}
+                      </div>
+                      <div>{projectDescription}</div>
+                    </div>
+                    <img
+                      src={src}
+                      alt={`screenshot of ${projectName}`}
+                      className="rounded-tr-lg rounded-tl-lg"
+                    />
+                  </div>
+                  <div className="flex items-center justify-center">
+                    {hasDemo && (
+                      <>
+                        <button className="w-1/2 text-lg hover:bg-slate-600">
+                          <a
+                            href={demoLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex justify-center py-4"
+                          >
+                            Demo
+                          </a>
+                        </button>
+                        <span className="py-4 border-l-2"></span>
+                      </>
+                    )}
+                    <button
+                      className={
+                        demoLink
+                          ? "w-1/2 text-lg hover:bg-slate-600"
+                          : "w-full text-lg hover:bg-slate-600"
+                      }
+                    >
+                      <a
+                        href={repoLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex justify-center py-4"
+                      >
+                        {hasDemo ? "Repo" : "View Repo"}
+                      </a>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            }
+          )}
         </div>
       </div>
     </section>
