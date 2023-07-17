@@ -5,6 +5,8 @@ import {
   FaEnvelope,
   FaUserTie,
 } from "react-icons/fa6";
+import ContactForm from "./ContactForm";
+
 
 const Contact = () => {
   return (
@@ -53,50 +55,7 @@ const Contact = () => {
           </div>
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl p-4 bg-gray-200">
             <div className="p-4">
-              <form>
-                <div className="grid md:grid-cols-2 gap-2 w-full py-2">
-                  <div className="flex flex-col">
-                    <input
-                      className="border-2 rounded-lg p-3 border-gray-300"
-                      type="text"
-                      placeholder="First name"
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <input
-                      className="border-2 rounded-lg p-3 border-gray-300"
-                      type="text"
-                      placeholder="Last name"
-                    />
-                  </div>
-                </div>
-                <div className="flex flex-col py-2">
-                  <input
-                    className="border-2 rounded-lg p-3 border-gray-300"
-                    type="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <input
-                    className="border-2 rounded-lg p-3 border-gray-300"
-                    type="email"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div className="flex flex-col py-2">
-                  <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300 resize-none"
-                    rows={10}
-                    placeholder="Type a message..."
-                  ></textarea>
-                </div>
-                <div className="flex flex-col pt-2">
-                  <button className="mx-auto mt-2 bg-gradient-to-br from-blue-500 to-blue-400 hover:to-blue-500 rounded-lg py-3 px-5 text-lg text-gray-100 font-medium shadow-md shadow-gray-400">
-                    Send Message
-                  </button>
-                </div>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>
