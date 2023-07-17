@@ -1,11 +1,6 @@
 import React from "react";
-import {
-  FaLinkedin,
-  FaGithub,
-  FaEnvelope,
-  FaUserTie,
-} from "react-icons/fa6";
 import ContactForm from "./ContactForm";
+import SocialButtons from "./SocialButtons";
 
 
 const Contact = () => {
@@ -36,20 +31,7 @@ const Contact = () => {
                 <p>Full-Stack Software Developer</p>
               </div>
               <div>
-                <div className="flex items-center justify-evenly py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 bg-gradient-to-br from-blue-300 to-slate-300 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaLinkedin size={25} />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 bg-gradient-to-br from-blue-300 to-slate-300 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaGithub size={25} />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 bg-gradient-to-br from-blue-300 to-slate-300 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaEnvelope size={25} />
-                  </div>
-                  {/* <div className="rounded-full shadow-lg shadow-gray-400 bg-gradient-to-br from-blue-300 to-slate-300 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                    <FaUserTie size={25} />
-                  </div> */}
-                </div>
+                <SocialButtons exclude={4} />
               </div>
             </div>
           </div>
