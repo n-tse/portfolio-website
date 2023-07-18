@@ -56,7 +56,7 @@ const ContactForm = () => {
             type="text"
             name="email"
             value={formValues.email}
-            placeholder="Email"
+            placeholder="Your email address"
             onChange={handleChange}
           />
         </div>
