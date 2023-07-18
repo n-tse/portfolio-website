@@ -3,12 +3,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaEnvelope,
-  FaRegEnvelope,
-  FaUser,
   FaUserTie,
-  FaFileLines,
-  FaRegIdBadge,
-  FaRegFileLines,
 } from "react-icons/fa6";
 
 const SocialLinks = () => {
@@ -17,7 +12,7 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          Linkedin <FaLinkedin size={35} />
+          Linkedin <FaLinkedin size={35} color="#0077b5"/>
         </>
       ),
       href: "https://www.linkedin.com/in/nicholashtse/",
@@ -36,7 +31,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Email <FaEnvelope size={35} />
+          Email <FaEnvelope size={35} color="#ADB4A6"/>
         </>
       ),
       href: "mailto:nicholashtse@gmail.com",
@@ -45,7 +40,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <FaUserTie size={35} />
+          Resume <FaUserTie size={35} color="#1D4384"/>
         </>
       ),
       href: "/NicholasTse_Resume.32326.pdf",
@@ -58,7 +53,7 @@ const SocialLinks = () => {
       <ul>
         {socialLinks.map(({ id, child, href, customStyle }) => {
           return (
-          <li key={id} className={"flex justify-between items-center text-lg font-medium w-40 h-14 pl-7 pr-3 bg-gradient-to-tr from-slate-400 to-slate-200 hover:rounded-e-lg ml-[-100px] hover:ml-[-10px] duration-300" + " " + customStyle}>
+          <li key={id} className={"flex justify-between items-center text-lg font-medium w-40 h-14 pl-7 pr-3 bg-gray-100 hover:rounded-e-lg ml-[-100px] hover:ml-[-10px] duration-300 shadow-md shadow-gray-400" + " " + customStyle}>
             <a
               href={href}
               target="_blank"
