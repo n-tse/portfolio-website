@@ -13,7 +13,8 @@ const Skills = () => {
             Skills & Tech Stack
           </h2>
         </div>
-        <div className="container mx-auto max-w-[1400px]">
+        <div className="mx-auto max-w-screen-xl">
+        {/* <div className="container mx-auto max-w-[1400px]"> */}
           <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-flow-row">
             {skillsList.map(({ id, src, skillName }) => {
               return (
