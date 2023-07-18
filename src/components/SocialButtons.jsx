@@ -5,22 +5,22 @@ const SocialButtons = ({ exclude }) => {
   const socialButtons = [
     {
       id: 1,
-      icon: <FaLinkedin size={25} />,
+      icon: <FaLinkedin size={30} color="#0077b5"/>,
       href: "https://www.linkedin.com/in/nicholashtse/",
     },
     {
       id: 2,
-      icon: <FaGithub size={25} />,
+      icon: <FaGithub size={30} />,
       href: "https://github.com/n-tse",
     },
     {
       id: 3,
-      icon: <FaEnvelope size={25} />,
+      icon: <FaEnvelope size={30} color="#ADB4A6"/>,
       href: "mailto:nicholashtse@gmail.com",
     },
     {
       id: 4,
-      icon: <FaUserTie size={25} />,
+      icon: <FaUserTie size={30} color="#1D4384"/>,
       href: "/NicholasTse_Resume.32326.pdf",
     },
   ];
@@ -35,7 +35,7 @@ const SocialButtons = ({ exclude }) => {
           return (
             <div
               key={id}
-              className="rounded-full shadow-lg shadow-gray-400 bg-gradient-to-br from-blue-300 to-slate-300 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+              className="rounded-full shadow-lg shadow-gray-400 bg-gradient-to-br from-slate-100 to-slate-200 p-3 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <a
                 href={href}
