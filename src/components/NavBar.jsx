@@ -11,7 +11,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center w-full h-20 px-6 bg-neutral-100 text-slate-600 z-50 sticky top-0">
         <div>
           <h1 className="font-signature text-5xl">
-            <Link to={"Home"} smooth duration={500} className="cursor-pointer">
+            <Link to={"Home"} smooth duration={500} offset={-210} className="cursor-pointer">
               Nicholas Tse
             </Link>
           </h1>
@@ -23,7 +23,7 @@ const NavBar = () => {
                 key={id}
                 className="px-3 cursor-pointer font-medium text-slate-600 hover:text-black"
               >
-                <Link to={linkName} smooth duration={500} className="py-4">
+                <Link to={linkName} smooth duration={500} offset={linkName === "Home" ? -210 : -80} className="py-4">
                   {linkName}
                 </Link>
               </li>
@@ -45,7 +45,7 @@ const NavBar = () => {
                   key={id}
                   className="p-4 cursor-pointer text-3xl hover:text-gray-800"
                 >
-                  <Link to={linkName} smooth duration={500} className="py-4" onClick={() => setOpenMenu(false)}>
+                  <Link to={linkName} smooth duration={500} offset={linkName === "Home" ? -130 : -80} className="py-4" onClick={() => setOpenMenu(false)}>
                     {linkName}
                   </Link>
                 </li>
