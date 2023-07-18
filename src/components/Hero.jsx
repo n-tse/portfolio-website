@@ -5,13 +5,13 @@ import SocialButtons from "./SocialButtons";
 
 const Hero = () => {
   return (
-    <section name="Home" className="min-h-fit w-full my-12 lg:my-20 xl:mb-28 xl:mt-32">
-      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-4/5 px-4 lg:flex-row lg:pl-20">
+    <section name="Home" className="min-h-fit w-full my-12 lg:my-20 xl:mb-28 xl:mt-32 sm:px-14">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center px-8 lg:flex-row">
         <div className="flex flex-col justify-center items-center h-full lg:items-start md:w-4/5 lg:w-3/5 xl:w-[72%]">
-          <h2 className="text-4xl text-center md:text-5xl sm:w-9/10 lg:text-start lg:w-full lg:text-6xl max-w-screen-lg font-bold">
+          <h2 className="text-4xl text-center md:text-5xl lg:text-start lg:text-6xl font-bold">
             Hi there! I'm Nick - Welcome to my Portfolio!
           </h2>
-          <p className="py-4 text-lg md:text-xl lg:w-[85%] max-w-[85%] text-justify lg:text-start">
+          <p className="py-4 text-lg md:text-xl lg:w-[85%] text-justify lg:text-start">
             Full-Stack Software Developer with 1.5 years of experience building
             dynamic SPA web apps using React, JavaScript, HTML/CSS, Node.js,
             Express, and MongoDB
