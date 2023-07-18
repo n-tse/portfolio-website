@@ -15,7 +15,7 @@ const About = () => {
         <p className="text-lg mt-3">
           Hello! I'm Nick, a Full-Stack Software Developer with a passion for
           creating engaging web applications and user experiences. My software
-          development jouney began when I joined the Epicodus coding bootcamp in
+          development journey began when I joined the Epicodus coding bootcamp in
           March 2022. To my surprise, I discovered that coding shared
           similarities with another hobby of mine - cooking. Just like combining
           different ingredients and flavors to create delicious dishes for
