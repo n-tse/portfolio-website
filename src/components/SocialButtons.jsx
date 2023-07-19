@@ -21,7 +21,7 @@ const SocialButtons = ({ exclude }) => {
     {
       id: 4,
       icon: <FaUserTie size={30} color="#1D4384"/>,
-      href: "/NicholasTse_Resume.32326.pdf",
+      href: "/NicholasTse_Resume.32917.pdf",
     },
   ];
 
