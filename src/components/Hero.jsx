@@ -12,7 +12,7 @@ const Hero = () => {
             Hi there! I'm Nick - Welcome to my Portfolio!
           </h2>
           <p className="py-4 text-lg md:text-xl lg:w-[85%] text-justify lg:text-start">
-            Full-Stack Software Developer with 1.5 years of experience building
+            <span className="text-violet-500 font-semibold">Full-Stack Developer</span> with 1.5 years of experience building
             dynamic SPA web apps using React, JavaScript, HTML/CSS, Node.js,
             Express, and MongoDB
           </p>

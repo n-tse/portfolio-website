@@ -31,7 +31,7 @@ const Contact = () => {
                 <h2 className="text-2xl text-black md:text-3xl lg:text-4xl font-medium pt-4">
                   Nicholas Tse
                 </h2>
-                <p className="lg:text-lg pt-2">Full-Stack Software Developer</p>
+                <p className="lg:text-lg pt-1"><span className="text-violet-500 font-semibold">Full-Stack Software Developer</span></p>
                 <div className="py-2">
                   <div className="flex items-center md:text-xs lg:text-base">
                     <FaRegEnvelope size={20} className="mr-1 flex-shrink-0"/> nicholashtse@gmail.com
