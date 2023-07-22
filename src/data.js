@@ -25,7 +25,7 @@ export const projectsList = [
   {
     id: 1,
     projectName: "West Buy",
-    projectDescription: "TypeScript, React, Bootstrap",
+    projectDescription: "TypeScript, React, Bootstrap, Stripe",
     src: "/ProjectScreenshots/WestBuyScreenshot.png",
     hasDemo: true,
     demoLink: "https://n-tse.github.io/ts-shopping-cart/",

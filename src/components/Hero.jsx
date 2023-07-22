@@ -12,9 +12,7 @@ const Hero = () => {
             Hi there! I'm Nick - Welcome to my Portfolio!
           </h2>
           <p className="py-4 text-lg md:text-xl lg:w-[85%] text-justify lg:text-start">
-            <span className="text-violet-500 font-semibold">Full-Stack Developer</span> with 1.5 years of experience building
-            dynamic SPA web apps using React, JavaScript, HTML/CSS, Node.js,
-            Express, and MongoDB
+            <span className="text-violet-500 font-semibold">Full-Stack Developer</span> specializing in the development of dynamic SPA web apps using React, JavaScript, Node.js, Express, and MongoDB
           </p>
           <div className="flex flex-row mb-4">
             <Link

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       name="About"
-      className="w-full py-12 min-h-fit flex flex-col justify-center items-center sm:px-14 bg-gradient-to-br from-purple-50 to-sky-50"
+      className="w-full py-12 min-h-fit flex flex-col justify-center items-center sm:px-14 bg-gradient-to-br from-sky-100 to-purple-100"
     >
       <div className="max-w-screen-xl py-4 px-8 mx-auto flex flex-col justify-center w-full h-fit">
         <div className="pb-8">
@@ -31,9 +31,8 @@ const About = () => {
           I've gained invaluable experience and honed my skills along the way.
         </p>
         <p className="text-lg mt-3">
-          My techstack includes: JavaScript, React, HTML, CSS, Node.js, Express,
-          MongoDB, C#, MySql, .NET, React Redux, WebSockets, Socket.io,
-          Bootstrap, MUI, TailwindCSS, and Postman. Recently, I've been
+          My techstack includes: React, JavaScript, Node.js, Express,
+          MongoDB, C#, .NET, and MySQL. Recently, I've been
           exploring TypeScript and delving into mobile development using Flutter
           and Dart.
         </p>
