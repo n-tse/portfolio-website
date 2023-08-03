@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ["Yellowtail"],
+      // signature: ["Ephesis"],
+      signature: ["Pacifico"],
+      // signature: ["Yellowtail"],
     },
   },
   plugins: [],
