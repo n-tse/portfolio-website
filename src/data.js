@@ -154,17 +154,7 @@ export const skillsList = [
   },
   {
     id: 16,
-    skillName: "Material UI",
-    src: "/SkillsIcons/material-ui.png",
-  },
-  {
-    id: 17,
     skillName: "Git",
     src: "/SkillsIcons/git.png",
-  },
-  {
-    id: 18,
-    skillName: "npm",
-    src: "/SkillsIcons/npm.png",
   },
 ];

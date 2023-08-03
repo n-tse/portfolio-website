@@ -16,7 +16,7 @@ const Skills = () => {
         </div>
         <div className="mx-auto max-w-screen-xl">
           {/* <div className="container mx-auto max-w-[1400px]"> */}
-          <div className="grid grid-cols-6 sm:grid-cols-9 md:grid-flow-row">
+          <div className="grid grid-cols-6 sm:grid-cols-8 md:grid-flow-row">
             {skillsList.map(({ id, src, skillName }) => {
               return (
                 <div key={id} className="p-2 flex justify-center">
