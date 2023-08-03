@@ -30,12 +30,7 @@ const About = () => {
           MongoDB, to crafting my MERN job application tracking app "GreatJob,"
           I've gained invaluable experience and honed my skills along the way.
         </p>
-        <p className="text-lg mt-3">
-          My techstack includes: React, JavaScript, Node.js, Express,
-          MongoDB, C#, .NET, and MySQL. Recently, I've been
-          exploring TypeScript and delving into mobile development using Flutter
-          and Dart.
-        </p>
+
         {/* <p className="text-lg mt-3">
             Drawing on my background in Communications and Sociology, as well as
             my experience in Sales and Marketing, I prioritize effective
